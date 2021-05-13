@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/pet_vue/',
+    publicPath: '/',
     pluginOptions: {
         i18n: {
             locale: 'en',
