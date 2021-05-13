@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+  app:
+    build: .
+    command: nginx -g 'daemon off;'
+    restart: always
+    ports:
+      - 8083:80
+    tmpfs: /tmp
+    volumes:
+      - ./:/app
+      - ./.dev/nginx:/etc/nginx/conf.d
