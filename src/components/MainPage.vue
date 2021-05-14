@@ -26,10 +26,11 @@ export default {
 <style scoped lang="scss">
 .header {
   background: url(../assets/background_desktop.png);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100vh;
+  background-position: center;
   &--tablet {
     background: url(../assets/background_tablet.png);
   }

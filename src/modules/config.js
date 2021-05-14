@@ -17,7 +17,8 @@ const getters = {
         return window.innerWidth
     },
     isMobileVersion(state, getters) {
-        return !getters.isMobile && getters.screenViewport < 764
+        // return getters.isMobile && getters.screenViewport < 764
+        return getters.screenViewport < 764
     },
 };
 
